@@ -2,6 +2,7 @@
   <img src="./assets/mauron-header.svg" width="100%" alt="MAURON — Full-Stack, Automation, Data" />
 </div>
 
+
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=21&amp;duration=2600&amp;pause=750&amp;color=00F5D4&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=900&amp;lines=Building+production+systems+that+work.;Django+%7C+React+%7C+Automation+%7C+Data;Turning+real+business+problems+into+software.;Design.+Engineer.+Deploy.+Improve." alt="Animated MAURON introduction" />
