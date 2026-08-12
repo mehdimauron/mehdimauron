@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/mauron-header.svg" width="100%" alt="MAURON â€” Full-Stack, Automation, Data" />
+  <img src="./assets/mauron-header.svg" width="100%" alt="MAURON — Full-Stack, Automation, Data" />
 </div>
 
 <p align="center">
@@ -24,7 +24,7 @@
   <img src="./assets/terminal.svg" width="96%" alt="Animated terminal introduction" />
 </div>
 
-I am **MAURON**, a full-stack developer and systems builder focused on useful software: web platforms, data-heavy dashboards, workflow automation, and reliable deployment. I like taking a real operational problem from idea to production â€” interface, backend, database, infrastructure, and support included.
+I am **MAURON**, a full-stack developer and systems builder focused on useful software: web platforms, data-heavy dashboards, workflow automation, and reliable deployment. I like taking a real operational problem from idea to production — interface, backend, database, infrastructure, and support included.
 
 - Building **DarooPrice**, a pharmacy price-intelligence and monitoring platform.
 - Rebuilding **Begoosib**, a modern online-pharmacy commerce experience.
@@ -36,17 +36,17 @@ I am **MAURON**, a full-stack developer and systems builder focused on useful so
 ## `> featured_systems`
 
 <p align="center">
-  <a href="https://darooprice.com"><img src="./assets/darooprice-card.svg" width="49%" alt="DarooPrice â€” pharmacy price intelligence" /></a>
-  <a href="https://begoosib.com"><img src="./assets/begoosib-card.svg" width="49%" alt="Begoosib â€” modern pharmacy commerce" /></a>
+  <a href="https://darooprice.com"><img src="./assets/darooprice-card.svg" width="49%" alt="DarooPrice — pharmacy price intelligence" /></a>
+  <a href="https://begoosib.com"><img src="./assets/begoosib-card.svg" width="49%" alt="Begoosib — modern pharmacy commerce" /></a>
 </p>
 
 <details>
   <summary><strong>More about these systems</strong></summary>
   <br />
 
-  **DarooPrice** â€” A Django and PostgreSQL dashboard that monitors pharmacy-product prices across multiple sources. It includes low-rate 24/7 workers, product approval flows, searchable data, price history, update tracking, and Telegram alerts.
+  **DarooPrice** — A Django and PostgreSQL dashboard that monitors pharmacy-product prices across multiple sources. It includes low-rate 24/7 workers, product approval flows, searchable data, price history, update tracking, and Telegram alerts.
 
-  **Begoosib** â€” A modern storefront and product experience for an online pharmacy. The new frontend uses React, Next.js, TypeScript, and a Cloudflare-ready deployment stack, with a strong focus on mobile UX, conversion, and brand consistency.
+  **Begoosib** — A modern storefront and product experience for an online pharmacy. The new frontend uses React, Next.js, TypeScript, and a Cloudflare-ready deployment stack, with a strong focus on mobile UX, conversion, and brand consistency.
 </details>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="" />
