@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">MAURON animated footer</title>
+  <desc id="desc">A neon wave footer reading designed and engineered by MAURON.</desc>
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#080318"/></linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5d4"/><stop offset=".5" stop-color="#7cff00"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="fg"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="190" rx="24" fill="url(#footerBg)"/>
+  <path d="M0 62C150 15 290 108 445 58S730 14 860 58s225 52 340 4" fill="none" stroke="#16333d" stroke-width="2"/>
+  <path d="M0 62C150 15 290 108 445 58S730 14 860 58s225 52 340 4" fill="none" stroke="url(#wave)" stroke-width="3" stroke-dasharray="190 60" filter="url(#fg)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-500" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <g text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="600" y="122" fill="#d8fff8" font-size="18" letter-spacing="4">DESIGNED &amp; ENGINEERED BY</text>
+    <text x="600" y="158" fill="url(#wave)" font-size="30" font-weight="700" letter-spacing="9" filter="url(#fg)">MAURON</text>
+  </g>
+  <circle cx="1030" cy="142" r="4" fill="#00f5d4"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text x="1044" y="147" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#6e8b97">END OF LINE</text>
+</svg>

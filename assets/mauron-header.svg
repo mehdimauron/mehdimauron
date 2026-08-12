@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">MAURON animated profile header</title>
+  <desc id="desc">A dark neon terminal-inspired banner for full-stack developer MAURON.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020409"/>
+      <stop offset="0.52" stop-color="#07121a"/>
+      <stop offset="1" stop-color="#09041a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5d4"/>
+      <stop offset="0.5" stop-color="#7cff00"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1a3b46" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="18" y="18" width="1164" height="324" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect x="18" y="18" width="1164" height="324" fill="url(#grid)" opacity="0.34"/>
+    <path d="M-80 322L370 -40M160 400L620 -40M430 400L890 -40M700 400L1160 -40M970 400L1320 50" stroke="#00f5d4" stroke-width="1" opacity="0.07"/>
+
+    <g fill="#00f5d4" opacity="0.48">
+      <circle cx="92" cy="318" r="2"><animate attributeName="cy" values="318;38;318" dur="8s" repeatCount="indefinite"/></circle>
+      <circle cx="182" cy="286" r="1.6"><animate attributeName="cy" values="286;58;286" dur="11s" repeatCount="indefinite"/></circle>
+      <circle cx="1032" cy="306" r="2"><animate attributeName="cy" values="306;44;306" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="1116" cy="250" r="1.5"><animate attributeName="cy" values="250;68;250" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="286" cy="332" r="1.2"><animate attributeName="cy" values="332;92;332" dur="13s" repeatCount="indefinite"/></circle>
+      <circle cx="920" cy="320" r="1.4"><animate attributeName="cy" values="320;72;320" dur="12s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#7cff00" opacity="0.2">
+      <text x="42" y="78">01001101 01000001 01010101 01010010 01001111 01001110</text>
+      <text x="820" y="94">0x4D 0x41 0x55 0x52 0x4F 0x4E</text>
+      <text x="58" y="282">deploy --production --zero-downtime</text>
+      <text x="864" y="300">status: systems_online</text>
+    </g>
+
+    <rect x="18" y="-28" width="1164" height="22" fill="#00f5d4" opacity="0.055">
+      <animate attributeName="y" from="-28" to="370" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="18" y="18" width="1164" height="324" rx="24" fill="none" stroke="#17343e" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="324" rx="24" fill="none" stroke="url(#neon)" stroke-width="2.5" stroke-dasharray="160 30" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-380" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <g transform="translate(48 44)">
+      <circle cx="0" cy="0" r="5" fill="#ff5f57"/>
+      <circle cx="20" cy="0" r="5" fill="#febc2e"/>
+      <circle cx="40" cy="0" r="5" fill="#28c840"/>
+      <text x="64" y="4" fill="#7693a2" font-size="12">mauron@github: ~/profile</text>
+    </g>
+
+    <text x="600" y="163" text-anchor="middle" fill="url(#neon)" font-size="82" font-weight="800" letter-spacing="17" filter="url(#glow)">MAURON</text>
+    <text x="600" y="210" text-anchor="middle" fill="#d8fff8" font-size="18" letter-spacing="5">FULL-STACK  /  AUTOMATION  /  DATA</text>
+    <text x="600" y="246" text-anchor="middle" fill="#7b96a2" font-size="14" letter-spacing="2">&gt; BUILDING SYSTEMS THAT WORK<tspan fill="#00f5d4">_</tspan></text>
+    <rect x="879" y="231" width="9" height="18" rx="1" fill="#00f5d4">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(396 286)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">
+    <rect width="126" height="30" rx="15" fill="#071a1d" stroke="#00f5d4" opacity="0.92"/>
+    <circle cx="17" cy="15" r="4" fill="#00f5d4"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle>
+    <text x="31" y="19" fill="#b8fff4">SYSTEM ONLINE</text>
+    <rect x="140" width="120" height="30" rx="15" fill="#10101e" stroke="#8b5cf6" opacity="0.92"/>
+    <text x="158" y="19" fill="#d8c9ff">BUILD / DEPLOY</text>
+    <rect x="274" width="134" height="30" rx="15" fill="#0d1908" stroke="#7cff00" opacity="0.92"/>
+    <text x="294" y="19" fill="#d9ffb5">SOLVE / SCALE</text>
+  </g>
+</svg>

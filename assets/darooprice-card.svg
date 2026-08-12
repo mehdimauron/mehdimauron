@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="280" viewBox="0 0 570 280" role="img" aria-labelledby="title desc">
+  <title id="title">DarooPrice project card</title>
+  <desc id="desc">Pharmacy price intelligence platform built with Django, PostgreSQL, and Docker.</desc>
+  <defs>
+    <linearGradient id="dpBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061216"/><stop offset="1" stop-color="#07101b"/></linearGradient>
+    <linearGradient id="dpLine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#7cff00"/></linearGradient>
+    <filter id="dpGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="5" y="5" width="560" height="270" rx="22" fill="url(#dpBg)" stroke="#173a42" stroke-width="2"/>
+  <rect x="5" y="5" width="560" height="270" rx="22" fill="none" stroke="url(#dpLine)" stroke-width="2" stroke-dasharray="90 28">
+    <animate attributeName="stroke-dashoffset" from="0" to="-236" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(28 25)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <rect width="46" height="46" rx="14" fill="#0a2729" stroke="#00f5d4"/>
+    <path d="M14 23c0-6 4-10 10-10s10 4 10 10-4 10-10 10-10-4-10-10Z" fill="none" stroke="#00f5d4" stroke-width="2"/>
+    <path d="M17 16l14 14" stroke="#7cff00" stroke-width="3" stroke-linecap="round"/>
+    <text x="60" y="19" font-size="12" fill="#6f8e99" letter-spacing="2">FEATURED SYSTEM</text>
+    <text x="60" y="44" font-size="25" font-weight="700" fill="#e3fff9">DarooPrice</text>
+    <circle cx="493" cy="12" r="5" fill="#7cff00"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="506" y="16" font-size="11" fill="#9ae66a">LIVE</text>
+
+    <text x="0" y="92" font-size="14" fill="#bfd1d8">Pharmacy price intelligence and monitoring</text>
+    <text x="0" y="114" font-size="14" fill="#bfd1d8">across multiple commerce sources.</text>
+
+    <g transform="translate(0 137)" font-size="11">
+      <rect width="76" height="28" rx="14" fill="#0d2428" stroke="#1d5a61"/><text x="15" y="18" fill="#8ee9dc">Django</text>
+      <rect x="86" width="100" height="28" rx="14" fill="#0d2428" stroke="#1d5a61"/><text x="101" y="18" fill="#8ee9dc">PostgreSQL</text>
+      <rect x="196" width="76" height="28" rx="14" fill="#0d2428" stroke="#1d5a61"/><text x="213" y="18" fill="#8ee9dc">Docker</text>
+    </g>
+
+    <g transform="translate(300 118)">
+      <path d="M0 63H225M0 32H225M0 1H225" stroke="#17343b"/>
+      <path d="M0 60C28 58 34 42 58 46S90 66 117 40s47-7 66-28 31-4 42-10" fill="none" stroke="url(#dpLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="300" stroke-dashoffset="300" filter="url(#dpGlow)">
+        <animate attributeName="stroke-dashoffset" from="300" to="0" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="0" y="224" font-size="12" fill="#5f7883">AUTOMATED WORKERS  •  HISTORY  •  ALERTS</text>
+  </g>
+</svg>
