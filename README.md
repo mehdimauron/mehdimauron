@@ -24,14 +24,6 @@
 <div align="center">
   <img src="./assets/terminal.svg" width="96%" alt="Animated terminal introduction" />
 </div>
-
-I am **MAURON**, a full-stack developer and systems builder focused on useful software: web platforms, data-heavy dashboards, workflow automation, and reliable deployment. I like taking a real operational problem from idea to production — interface, backend, database, infrastructure, and support included.
-
-- Building **DarooPrice**, a pharmacy price-intelligence and monitoring platform.
-- Rebuilding **Begoosib**, a modern online-pharmacy commerce experience.
-- Developing Telegram and Discord bots, database-backed tools, and automation systems.
-- Working across product design, implementation, deployment, and long-term technical support.
-
 <img src="./assets/neon-divider.svg" width="100%" alt="" />
 
 ## `> featured_systems`
