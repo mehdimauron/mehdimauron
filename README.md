@@ -10,13 +10,6 @@
 </div>
 <img src="./assets/neon-divider.svg" width="100%" alt="" />
 
-## `> featured_systems`
-
-<p align="center">
-  <a href="https://darooprice.com"><img src="./assets/darooprice-card.svg" width="49%" alt="DarooPrice — pharmacy price intelligence" /></a>
-  <a href="https://begoosib.com"><img src="./assets/begoosib-card.svg" width="49%" alt="Begoosib — modern pharmacy commerce" /></a>
-</p>
-
 <details>
   <summary><strong>More about these systems</strong></summary>
   <br />
